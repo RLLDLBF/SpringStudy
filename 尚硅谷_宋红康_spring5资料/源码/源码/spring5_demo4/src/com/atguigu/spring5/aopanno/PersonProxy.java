@@ -1,5 +1,6 @@
 package com.atguigu.spring5.aopanno;
 
+import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
@@ -14,5 +15,10 @@ public class PersonProxy {
     @Before(value = "execution(* com.atguigu.spring5.aopanno.User.add(..))")
     public void afterReturning() {
         System.out.println("Person Before.........");
+    }
+
+    @After(value = "execution(* com.atguigu.spring5.aopanno.User.add(..))")
+    public void after() {
+        System.out.println("Person After.........");
     }
 }
