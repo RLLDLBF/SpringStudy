@@ -20,12 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bd729ac-1498-4e27-8526-c6f8234b6bbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../spring5_demo2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5_demo2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring5_demo4/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5_demo4/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5_demo4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5_demo4/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5_demo4/src/com/atguigu/spring5/test/TestAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5_demo4/src/com/atguigu/spring5/test/TestAop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +56,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589608088694" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring5_demo4" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -77,15 +74,13 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.TestSpring5Demo1.testService2">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -207,6 +202,7 @@
       <workItem from="1589595354032" duration="7669000" />
       <workItem from="1603332148645" duration="632000" />
       <workItem from="1603334258669" duration="5226000" />
+      <workItem from="1603618711154" duration="604000" />
     </task>
     <servers />
   </component>

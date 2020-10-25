@@ -6,14 +6,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bd729ac-1498-4e27-8526-c6f8234b6bbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../spring5_demo2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5_demo2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring5_demo3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5_demo3/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring5_demo3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5_demo3/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5_demo3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5_demo3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/atguigu/spring5/aopanno/PersonProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/spring5/aopanno/PersonProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/atguigu/spring5/test/TestAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/atguigu/spring5/test/TestAop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +27,6 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-15" />
-    <option name="y" value="21" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
   <component name="ProjectId" id="1jDOJWKm6YSKT6nr2APbDVR55a2" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -52,7 +41,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589632529657" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring5_demo3" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -70,7 +59,7 @@
       <recent name="E:\work\spring5_demo2\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestAop.testAopAnno">
+  <component name="RunManager" selected="JUnit.TestAop.testAopXml2">
     <configuration name="JDKProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.atguigu.spring5.JDKProxy" />
       <module name="spring5_demo4" />
@@ -113,6 +102,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestAop.testAopAnno2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.spring5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.spring5.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring5.test.TestAop" />
+      <option name="METHOD_NAME" value="testAopAnno2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestAop.testAopXml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="spring5_demo4" />
       <extension name="coverage">
@@ -129,16 +134,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestAop.testAopXml2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring5_demo4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.spring5.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.atguigu.spring5.test" />
+      <option name="MAIN_CLASS_NAME" value="com.atguigu.spring5.test.TestAop" />
+      <option name="METHOD_NAME" value="testAopXml2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.JDKProxy" />
       <item itemvalue="JUnit.TestAop.testAopAnno" />
       <item itemvalue="JUnit.TestAop.testAopXml" />
+      <item itemvalue="JUnit.TestAop.testAopAnno2" />
+      <item itemvalue="JUnit.TestAop.testAopXml2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAop.testAopXml2" />
+        <item itemvalue="JUnit.TestAop.testAopAnno2" />
+        <item itemvalue="JUnit.TestAop.testAopXml" />
         <item itemvalue="JUnit.TestAop.testAopAnno" />
         <item itemvalue="Application.JDKProxy" />
-        <item itemvalue="JUnit.TestAop.testAopXml" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +188,7 @@
       <workItem from="1589610054233" duration="10667000" />
       <workItem from="1603335125158" duration="7000" />
       <workItem from="1603542438823" duration="2810000" />
-      <workItem from="1603545926959" duration="4161000" />
+      <workItem from="1603545926959" duration="5620000" />
     </task>
     <servers />
   </component>
@@ -187,22 +212,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="389" y="95" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1603542786225" />
-    <state width="1564" height="224" key="GridCell.Tab.0.bottom" timestamp="1603616922549">
+    <state x="689" y="276" key="FileChooserDialogImpl" timestamp="1603618706959">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603616922549" />
-    <state width="1564" height="224" key="GridCell.Tab.0.center" timestamp="1603616922549">
+    <state x="689" y="276" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603618706959" />
+    <state width="1564" height="224" key="GridCell.Tab.0.bottom" timestamp="1603619277102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603616922549" />
-    <state width="1564" height="224" key="GridCell.Tab.0.left" timestamp="1603616922549">
+    <state width="1564" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603619277102" />
+    <state width="1564" height="224" key="GridCell.Tab.0.center" timestamp="1603619277102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603616922549" />
-    <state width="1564" height="224" key="GridCell.Tab.0.right" timestamp="1603616922549">
+    <state width="1564" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603619277102" />
+    <state width="1564" height="224" key="GridCell.Tab.0.left" timestamp="1603619277102">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1564" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603616922549" />
+    <state width="1564" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603619277102" />
+    <state width="1564" height="224" key="GridCell.Tab.0.right" timestamp="1603619277102">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1564" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603619277102" />
     <state x="572" y="240" width="672" height="678" key="search.everywhere.popup" timestamp="1603617842380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
