@@ -22,7 +22,10 @@
     <list default="true" id="5bd729ac-1498-4e27-8526-c6f8234b6bbb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring5_demo4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5_demo4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring5_demo4/src/com/atguigu/spring5/test/TestAop.java" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5_demo4/src/com/atguigu/spring5/test/TestAop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5_txdemo1/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5_txdemo1/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5_txdemo1/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5_txdemo1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5_txdemo1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5_txdemo1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../spring5_txdemo1/spring5_txdemo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5_txdemo1/spring5_txdemo1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +205,7 @@
       <workItem from="1589595354032" duration="7669000" />
       <workItem from="1603332148645" duration="632000" />
       <workItem from="1603334258669" duration="5226000" />
-      <workItem from="1603618711154" duration="604000" />
+      <workItem from="1603618711154" duration="1031000" />
     </task>
     <servers />
   </component>
