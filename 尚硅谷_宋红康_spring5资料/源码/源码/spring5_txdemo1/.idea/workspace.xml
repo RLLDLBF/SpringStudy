@@ -20,12 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bd729ac-1498-4e27-8526-c6f8234b6bbb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../spring5_demo3/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5_demo3/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../spring5_demo4/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../spring5_demo4/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring5_txdemo1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring5_txdemo1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../笔记/Spring5框架课堂笔记.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../../../笔记/Spring5框架课堂笔记.pdf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -211,7 +206,7 @@
       <workItem from="1589769568466" duration="18886000" />
       <workItem from="1589812841591" duration="1020000" />
       <workItem from="1589853110117" duration="4400000" />
-      <workItem from="1603623112111" duration="8300000" />
+      <workItem from="1603623112111" duration="10835000" />
     </task>
     <servers />
   </component>
