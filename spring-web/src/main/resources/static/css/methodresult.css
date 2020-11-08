@@ -1,0 +1,238 @@
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+
+body{
+    background: url(../images/searchResultbg.png) no-repeat 0px 0px;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+.menu {
+    top:0px;
+    width: 1000px;/*700*/
+    text-align: center;
+    height: 55px;
+    /*设置元素水平居中*/
+    margin: 0px auto;
+    /*去除内联元素间隙*/
+    font-size: 0;
+    /*去掉ul自带的.格式*/
+    list-style: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+.menu li{
+    /*将元素转换为行内块元素*/
+
+    display:inline-block;
+    width:150px;
+    height:50px;
+    border:2px solid #000000;
+    background-color: #000000;
+    font-size:35px;
+    /*将边框合并*/
+    margin-right:-1px;
+    text-align:center;
+    line-height:48px;
+}
+.menu a{
+    /*text-shadow: 0 1px 1px #fff;*/
+    font-family: "NSimSun";
+    font-size: large;
+    font-weight: 900;
+    color: #f0f2f0;
+    /*去掉a元素的下划线*/
+    text-decoration: none;
+}
+/*鼠标位于元素位置时改变元素样式*/
+
+.menu li:hover{
+    background-color: #ff0a25;
+}
+
+.menu a:hover{
+    color: #f4f7ff;
+    font-weight: 900;
+    text-shadow: 0 1px 1px #cab0ff;
+}
+
+.wrap{
+    margin: 0 auto;
+    width: 80%;
+}
+h1 {
+    font-family: "NSimSun",serif;
+    text-align: center;
+    padding-top: 1em;
+    background: #3d96ff;
+    font-weight: 700;
+    color: #ff0a25;
+    font-size: 2em;
+}
+.copy-rights{
+    position: absolute;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    width: 100%;
+    bottom: 0px;
+}
+.copy-rights p{
+    color:#FFF;
+    font-size: 1em;
+    line-height:1.8em;
+}
+.copy-rights p a{
+    color:#ff2a75;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    text-decoration:none;
+}
+.copy-rights p a:hover{
+    color:#3faa53;
+    text-decoration:none;
+    transition: 0.1s all;
+    -webkit-transition: 0.1s all;
+    -moz-transition: 0.1s all;
+    -o-transition: 0.1s all;
+}
+/*--/copyrights--*/
+
+/* Border styles */
+.mytable{
+    position: absolute;
+    top:45%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    /* height: 27px;
+     weight:27px;*/
+    padding: 15px;
+    display: table;
+}
+
+
+/* Border styles */
+#table-1 thead, #table-1 tr ,#table-2 thead,#table-2 tr,#table-3 tr,#table-3 thead,#table-4 tr,#table-4 thead {
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #000000;
+    border-left: #3faa53;
+    border-left-width: 10px;
+}
+#table-1,#table-2,#table-3,#table-4 {
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(0, 0, 0);
+    margin: auto;
+}
+
+/* Padding and font style */
+#table-1 td,#table-2 td,#table-3 td,#table-4 td {
+    font-size: 19px;
+    font-family: "NSimSun";
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 15px;
+}
+#table-1 th, #table-2 th, #table-3 th, #table-4 th {
+    font-size: 19px;
+    font-family: "NSimSun";
+    font-weight: 900;
+    color: #000000;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 15px;
+}
+#table-1 th,#table-2 th,#table-3 th,#table-4 th{
+   background: #6a9aff;
+}
+/* Alternating background colors */
+#table-1 tr:nth-child(even),#table-2 tr:nth-child(even),#table-3 tr:nth-child(even),#table-4 tr:nth-child(even) {
+    background: rgb(255, 10, 37);
+}
+#table-1 tr:nth-child(odd),#table-2 tr:nth-child(odd),#table-3 tr:nth-child(odd),#table-4 tr:nth-child(odd) {
+    background: #000000;
+}
+
+/* Border styles */
+#table-5 thead, #table-5 tr {
+    border-top-width: 0px;
+    border-top-style: solid;
+    border-top-color: #000000;
+}
+#table-5 {
+    border-bottom-width: 0px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(0, 0, 0);
+    border-left-width: 0px;
+    border-left-color: #000000;
+    vertical-align: middle;
+    margin: auto;
+}
+
+/* Padding and font style */
+#table-5 th {
+    font-size: 19px;
+    font-family: "NSimSun";
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    margin: auto;
+    padding: 0px 15px;
+    background: rgba(255, 10, 37, 1);
+}
+#table-5 td{
+    font-size: 11px;
+    font-family: "NSimSun";
+    font-weight: 900;
+    color: #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0px 15px;
+    background: #000000;
+    /*滚动条*/
+    /*  overflow: scroll;
+      scrollbar-face-color: #889B9F;
+      scrollbar-shadow-color: #3D5054;
+      scrollbar-highlight-color: #C3D6DA;
+      scrollbar-3dlight-color: #3D5054;
+      scrollbar-darkshadow-color: #85989C;
+      scrollbar-track-color: #95A6AA;
+      scrollbar-arrow-color: #FFD6DA;*/
+}
+/* Alternating background colors */
+#table-5 tr:nth-child(even) {
+    background: rgb(255, 10, 37)
+}
+#table-5 tr:nth-child(odd) {
+    background: #000000
+}

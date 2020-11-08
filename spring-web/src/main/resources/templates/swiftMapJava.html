@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/javaMapSwift.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script defer src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+
+    <title>查询API映射结果</title>
+
+</head>
+
+
+<body>
+
+<ul class="menu">
+    <li><a href="/homepage">|API信息查询|</a></li>
+    <li><a href="/maphomepage" target="_self">|API映射索引|</a></li>
+    <li><a href="/login" target="_blank">|管理API映射|</a></li>
+    <li><a href="">|关于我们|</a></li>
+</ul>
+
+<div class="mytable">
+    <table id="table-1">
+        <thead>
+        <th>查询：Swift api</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td><a th:href="@{/mapjavamethodresult(id=${0})}" style="color: white"  th:text="${SwiftAPI}"></a> </td>
+        </tr>
+        </tbody>
+    </table>
+    <table id="table-2">
+        <thead>
+        <th>映射：Java api</th>
+        </thead>
+        <tbody>
+        <td><a th:href="@{/mapjavamethodresult(id=${1})}" style="color: white"  th:text="${JavaAPI}"></a> </td>
+        </tr>
+        </tbody>
+    </table>
+
+</div>
+
+<div class="copy-rights">
+    <p>Copyright &copy; 2020.NJU-Lichenwei</p>
+</div>
+</body>
+<script>
+    /*function openWindow(url,w,h)
+    {
+    var left=(window.screen.width-w)/2;
+    var top=(window.screen.height-h)/2;
+    window.open(url, "", "height="+h+", width="+w+",top="+top+",left="+left+", toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no");
+    }*/
+</script>
+</html>

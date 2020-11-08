@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/management.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <script type="text/javascript">
+        function tankuang() {
+            alert("Designed by 李宸玮\n2020.6")
+        }/*弹出对话框*/
+        function confirmAdd(){
+            if(!confirm("请确认数据无误后添加！")){
+                return false;
+            }
+            else{
+                return true;
+            }
+        }
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script defer src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <title>API映射管理：API数据添加</title>
+
+</head>
+
+
+<body>
+
+<ul class="menu">
+    <li><a href="">|添加API数据|</a></li>
+    <li><a href="/apimapadd">|添加API映射|</a></li>
+    <li><a href="/management"onclick="tankuang()" >|关于我们|</a></li>
+</ul>
+
+<div class="api-add">
+<form action="/addedapi" method="post">
+    <p>
+        语言类型：
+        Java<input type="radio" name="apiType" value="Java">
+        Swift<input type="radio" name="apiType" value="Swift">
+    </p>
+    <p>API名称：<input type="text" name="fullName" style="width:450px;font-size: medium;font-weight: bold;font-family: 'italic', serif"> </p>
+    <p>API简称(用于搜索):<input type="text" name="apiNameForSearch" style="width:370px;font-size: medium;font-weight: bold;font-family: 'italic', serif"></p>
+    <p>包名：<input type="text" name="packageName" style="width:110px;font-size: medium;font-weight: bold;font-family: 'italic', serif">    类名：<input type="textfont-size:" name="className" style="width:110px;font-size: medium;font-weight: bold;font-family: 'italic', serif"> 方法名：<input type="text" name="methodName" style="width:110px;font-size: medium;font-weight: bold;font-family: 'italic', serif"></p>
+    <p>apiSignature：<input type="text" name="apiSignature" style="width:450px;font-size: medium;font-weight: bold;font-family: 'italic', serif"></p>
+    <p>description描述：<input type="text" name="description" style="width:450px;font-size: medium;font-weight: bold;font-family: 'italic', serif"></p>
+    <p>参数：<input type="text" name="formParameter" style=" width:450px;font-size: medium;font-weight: bold;font-family: 'italic', serif"></p>
+    <p>返回值：<input type="text" name="returnParam" style="width:450px;font-size: medium;font-weight: bold;font-family: 'italic', serif"></p>
+    <p>代码样例：</p>
+    <textarea id="ta1" name="codeSample" style="width:550px;height:150px;background:rgba(0, 0, 0, 0);color:white;font-size: medium;font-weight: normal;font-family: 'italic', sans-serif"></textarea>
+    <div class="signin">
+        <input type="submit" name="addapi" onclick="return confirmAdd();" value="添加一条API数据"  >
+    </div>
+</form>
+</div>
+
+
+<div class="copy-rights">
+    <p>Copyright &copy; 2020.NJU-Lichenwei</p>
+</div>
+</body>
+<script>
+    /*function openWindow(url,w,h)
+    {
+    var left=(window.screen.width-w)/2;
+    var top=(window.screen.height-h)/2;
+    window.open(url, "", "height="+h+", width="+w+",top="+top+",left="+left+", toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no");
+    }*//*弹窗*/
+</script>
+</html>

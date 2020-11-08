@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/addedapi.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+
+    <script type="text/javascript">
+        function tankuang() {
+            alert("Designed by NJU-李宸玮\n 2020.6")
+        }/*弹出对话框*/
+    </script>
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script defer src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+
+    <title>API添加成功</title>
+
+</head>
+
+
+<body>
+
+<ul class="menu">
+    <li><a href="/management">|添加API数据|</a></li>
+    <li><a href="/apimapadd">|添加API映射|</a></li>
+    <li><a href="#"onclick="tankuang()" >|关于我们|</a></li>
+</ul>
+
+
+<div class="mytable">
+    <h1>API添加成功！具体如下：</h1>
+    <table id="table-1">
+        <thead>
+        <th>类型</th>
+        <th>API</th>
+        <th>包名</th>
+        </thead>
+        <tbody>
+        <tr style="height: 30px">
+            <td><p th:text="${apiType}">(apiType)></td>
+            <td><p th:text="${fullName}">(fullname)></td>
+            <td><p th:text="${packageName}">(packageName)></td>
+        </tr>
+        </tbody>
+    </table>
+    <table id="table-2">
+        <thead>
+        <th>Signature</th>
+        </thead>
+        <tbody>
+        <tr style="height: 30px">
+            <td><p th:text="${Signature}">(signature)> </td>
+        </tr>
+        </tbody>
+    </table>
+    <table id="table-3">
+        <thead>
+        <th>api描述</th>
+        </thead>
+        <tbody>
+        <tr style="height: 30px">
+            <td><p th:text="${description}">(description)> </td>
+        </tr>
+        </tbody>
+    </table>
+    <table id="table-4">
+        <thead>
+        <th>参数</th>
+        <th>返回值</th>
+        </thead>
+        <tbody>
+        <tr style="height: 30px">
+            <td><p th:text="${formParameter}">(formParameter)> </td>
+            <td><p th:text="${returnParam}">(returnParam)></td>
+        </tr>
+        </tbody>
+    </table>
+    <table id="table-5">
+        <thead>
+        <th>代码样例</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td><pre><textarea rows="6" cols="92" style="color: white; background-color: black;font-size: 16px; font-family: 'italic', serif ;line-height: 27px;" th:text="${codeSample}">(codeSample)></textarea></pre></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="copy-rights">
+    <p>Copyright &copy; 2020.NJU-Lichenwei</p>
+</div>
+</body>
+<script>
+    /*function openWindow(url,w,h)
+    {
+    var left=(window.screen.width-w)/2;
+    var top=(window.screen.height-h)/2;
+    window.open(url, "", "height="+h+", width="+w+",top="+top+",left="+left+", toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no");
+    }*/
+</script>
+</html>

@@ -1,0 +1,53 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/homepage2search.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <script type="text/javascript">
+        function tankuang() {
+            alert("Designed by NJU-李宸玮\n 2020.6")
+        }/*弹出对话框*/
+    </script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script defer src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+    <title>API映射系统：API映射索引</title>
+
+</head>
+
+
+<body>
+
+<ul class="menu">
+    <li><a href="homepage">|API信息查询|</a></li>
+    <li><a href="/maphomepage" target="_self">|API映射索引|</a></li>
+    <li><a href="/login" target="_blank">|管理API映射|</a></li>
+    <li><a href="maphomepage"onclick="tankuang()" >|关于我们|</a></li>
+</ul>
+
+
+<form action="/mapresult" method="POST">
+    <div class="search-box">
+        <input class="search-txt" type="text" name="searchText" placeholder="Type to search">
+        <input class="search-btn" type="submit" name="serchButton" value="">
+        <i class="fas fa-search"></i>
+    </div>
+</form>
+
+
+
+
+<div class="copy-rights">
+    <p>Copyright &copy; 2020.NJU-Lichenwei</p>
+</div>
+</body>
+<script>
+    /*function openWindow(url,w,h)
+    {
+    var left=(window.screen.width-w)/2;
+    var top=(window.screen.height-h)/2;
+    window.open(url, "", "height="+h+", width="+w+",top="+top+",left="+left+", toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no");
+    }*//*弹窗*/
+</script>
+</html>

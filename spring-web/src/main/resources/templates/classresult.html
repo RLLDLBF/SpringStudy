@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/searchResult.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <script defer src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>
+
+    <title>查询API结果：类名</title>
+
+</head>
+
+
+<body>
+
+<ul class="menu">
+    <li><a href="/homepage">|API信息查询|</a></li>
+    <li><a href="/maphomepage" target="_self">|API映射索引|</a></li>
+    <li><a href="/login" target="_blank">|管理API映射|</a></li>
+    <li><a href="">|关于我们|</a></li>
+</ul>
+
+<div class="mytable">
+    <table id="table-1">
+    <thead>
+    <th>类名</th>
+    <th>语言类型</th>
+    <th>包名</th>
+    <th>方法个数</th>
+    </thead>
+    <tbody>
+    <tr>
+        <td><p th:text="${name}">(name)></td>
+        <td><p th:text="${type}">(language)></td>
+        <td><p th:text="${packageName}">(pppackage)></td>
+        <td><p th:text="${metNum}">(nummm)> </td>
+    </tr>
+    </tbody>
+</table>
+    <table id="table-2">
+        <thead>
+        <th>此类所包含的方法</th>
+        </thead>
+        <tbody>
+        <tr>
+            <td><pre><textarea rows="13" cols="92" style="text-align:center;color: white; background-color: black;font-size: 16px; font-family: 'italic', serif ;line-height: 27px;" th:text="${methods}">(methods)></textarea></pre></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="copy-rights">
+    <p>Copyright &copy; 2020.NJU-Lichenwei</p>
+</div>
+</body>
+<script>
+    /*function openWindow(url,w,h)
+    {
+    var left=(window.screen.width-w)/2;
+    var top=(window.screen.height-h)/2;
+    window.open(url, "", "height="+h+", width="+w+",top="+top+",left="+left+", toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no");
+    }*/
+</script>
+</html>
